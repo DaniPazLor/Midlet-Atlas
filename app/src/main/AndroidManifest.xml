@@ -11,11 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MidletAtlas">
         <activity
+            android:name=".activity_paises_europa"
+            android:exported="false" />
+        <activity
             android:name=".activity_europa"
             android:exported="false"
-            tools:ignore="AppLinkUrlError">
-
-        </activity>
+            tools:ignore="AppLinkUrlError"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

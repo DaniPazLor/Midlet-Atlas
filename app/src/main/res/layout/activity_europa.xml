@@ -8,11 +8,12 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView3"
@@ -39,35 +40,31 @@
             android:layout_marginTop="10dp"
             android:text="Europa es uno de los continentes que conforman el supercontinente euroasiático, situado entre los paralelos 35º 30’ y 70º 30’ de latitud norte. De forma convencional y por motivos histórico-culturales es considerada un continente, tras la delimitación realizada por el geógrafo ruso Vasili Tatíshchev quien deseaba señalar la pertenencia de Rusia a Europa y a Asia.​ " />
 
-        <RadioGroup
+        <TextView
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:text="Algunos paises de Europa:" />
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Algunos paises de Europa:" />
+        <RadioButton
+            android:id="@+id/radioButtonEsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="España" />
 
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="España" />
+        <RadioButton
+            android:id="@+id/radioButtonSui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suiza" />
 
-            <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Suiza" />
-
-            <RadioButton
-                android:id="@+id/radioButton4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Holanda" />
-        </RadioGroup>
+        <RadioButton
+            android:id="@+id/radioButtonHol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Holanda" />
 
     </LinearLayout>
 
@@ -88,6 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="100dp"
             android:layout_weight="1"
+            android:onClick="finalizarActivity"
             android:text="VOLVER" />
 
         <Button
@@ -95,6 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="mostrarPaises"
             android:text="VER PAISES" />
     </LinearLayout>
 
