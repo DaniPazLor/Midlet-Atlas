@@ -7,21 +7,95 @@
     tools:context=".activity_europa">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:background="#7C0C0C"
+            android:text="EUROPA"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="10dp"
             app:srcCompat="@drawable/europa" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Europa es uno de los continentes que conforman el supercontinente euroasiático, situado entre los paralelos 35º 30’ y 70º 30’ de latitud norte. De forma convencional y por motivos histórico-culturales es considerada un continente, tras la delimitación realizada por el geógrafo ruso Vasili Tatíshchev quien deseaba señalar la pertenencia de Rusia a Europa y a Asia.1​ " />
+            android:layout_marginTop="10dp"
+            android:text="Europa es uno de los continentes que conforman el supercontinente euroasiático, situado entre los paralelos 35º 30’ y 70º 30’ de latitud norte. De forma convencional y por motivos histórico-culturales es considerada un continente, tras la delimitación realizada por el geógrafo ruso Vasili Tatíshchev quien deseaba señalar la pertenencia de Rusia a Europa y a Asia.​ " />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Algunos paises de Europa:" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="España" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suiza" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Holanda" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_weight="1"
+            android:text="VOLVER" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="VER PAISES" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

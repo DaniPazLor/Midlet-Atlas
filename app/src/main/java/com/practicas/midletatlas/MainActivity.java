@@ -18,4 +18,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,activity_europa.class);
         startActivity(intent);
     }
+
+
 }
