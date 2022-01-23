@@ -8,8 +8,8 @@
 
     <TableRow
         android:id="@+id/tableRowP1"
-        android:layout_width="408dp"
-        android:layout_height="227dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -26,30 +26,32 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/mapa_espana" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRowP2"
-        android:layout_width="413dp"
-        android:layout_height="237dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/tableRowP3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableRowP1">
+        app:layout_constraintTop_toBottomOf="@+id/tableRowP1"
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="137dp"
-            android:layout_height="53dp"
+            android:layout_width="133dp"
+            android:layout_height="51dp"
             android:text="Suiza" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/mapa_suiza" />
     </TableRow>
@@ -57,19 +59,20 @@
     <TableRow
         android:id="@+id/tableRowP3"
         android:layout_width="409dp"
-        android:layout_height="263dp"
+        android:layout_height="150dp"
         android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRowP2">
 
         <TextView
             android:id="@+id/textView7"
-            android:layout_width="134dp"
-            android:layout_height="58dp"
+            android:layout_width="133dp"
+            android:layout_height="51dp"
             android:text="Holanda" />
 
         <ImageView
@@ -78,4 +81,16 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/mapa_holanda" />
     </TableRow>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="finalizarActivity"
+        android:text="VOLVER"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRowP3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

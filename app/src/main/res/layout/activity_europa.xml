@@ -47,23 +47,24 @@
             android:layout_marginTop="10dp"
             android:text="Algunos paises de Europa:" />
 
-        <RadioButton
-            android:id="@+id/radioButtonEsp"
+        <CheckBox
+            android:id="@+id/checkButtonCan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="España" />
 
-        <RadioButton
-            android:id="@+id/radioButtonSui"
+        <CheckBox
+            android:id="@+id/checkButtonMej"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Suiza" />
 
-        <RadioButton
-            android:id="@+id/radioButtonHol"
+        <CheckBox
+            android:id="@+id/checkButtonArg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="Holanda" />
 
     </LinearLayout>

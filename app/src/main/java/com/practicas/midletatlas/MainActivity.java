@@ -24,19 +24,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.btnAfrica:
-                intent = new Intent(this,activity_europa.class);
+                intent = new Intent(this,activity_africa.class);
                 startActivity(intent);
                 break;
             case R.id.btnAsia:
-                intent = new Intent(this,activity_europa.class);
+                intent = new Intent(this,activity_asia.class);
                 startActivity(intent);
                 break;
             case R.id.btnAmerica:
-                intent = new Intent(this,activity_europa.class);
+                intent = new Intent(this,activity_america.class);
                 startActivity(intent);
                 break;
             case R.id.btnOceania:
-                intent = new Intent(this,activity_europa.class);
+                intent = new Intent(this,activity_oceania.class);
                 startActivity(intent);
                 break;
         }

@@ -16,10 +16,21 @@ public class activity_paises_europa extends AppCompatActivity {
 
         Bundle datos = getIntent().getExtras();
         TableRow tr1 = findViewById(R.id.tableRowP1);
+        TableRow tr2 = findViewById(R.id.tableRowP2);
+        TableRow tr3 = findViewById(R.id.tableRowP3);
 
         if (datos.getBoolean("pais1")){
             tr1.setVisibility(View.VISIBLE);
         }
+        if (datos.getBoolean("pais2")){
+            tr2.setVisibility(View.VISIBLE);
+        }
+        if (datos.getBoolean("pais3")){
+            tr3.setVisibility(View.VISIBLE);
+        }
+    }
 
+    public void finalizarActivity(View view) {
+        finish();
     }
 }

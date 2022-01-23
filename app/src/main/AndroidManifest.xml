@@ -11,12 +11,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MidletAtlas">
         <activity
+            android:name=".activity_paises_oceania"
+            android:exported="false" />
+        <activity
+            android:name=".activity_oceania"
+            android:exported="false" />
+        <activity
+            android:name=".activity_paises_america"
+            android:exported="false" />
+        <activity
+            android:name=".activity_america"
+            android:exported="false" />
+        <activity
+            android:name=".activity_paises_asia"
+            android:exported="false" />
+        <activity
+            android:name=".activity_asia"
+            android:exported="false" />
+        <activity
+            android:name=".activity_paises_africa"
+            android:exported="false" />
+        <activity
+            android:name=".activity_africa"
+            android:exported="false" />
+        <activity
             android:name=".activity_paises_europa"
             android:exported="false" />
         <activity
             android:name=".activity_europa"
             android:exported="false"
-            tools:ignore="AppLinkUrlError"></activity>
+            tools:ignore="AppLinkUrlError" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
