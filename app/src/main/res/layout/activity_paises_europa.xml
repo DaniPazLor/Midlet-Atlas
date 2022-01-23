@@ -6,4 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".activity_paises_europa">
 
+    <TableRow
+        android:id="@+id/tableRowP1"
+        android:layout_width="408dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="133dp"
+            android:layout_height="51dp"
+            android:text="España" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mapa_espana" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowP2"
+        android:layout_width="413dp"
+        android:layout_height="237dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tableRowP3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRowP1">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="137dp"
+            android:layout_height="53dp"
+            android:text="Suiza" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mapa_suiza" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRowP3"
+        android:layout_width="409dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="134dp"
+            android:layout_height="58dp"
+            android:text="Holanda" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mapa_holanda" />
+    </TableRow>
 </androidx.constraintlayout.widget.ConstraintLayout>
