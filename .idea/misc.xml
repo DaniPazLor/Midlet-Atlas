@@ -3,19 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Curso DAM/Repositorios GitHub/Proyectos-Android-Studio/Midlet-Atlas/app/src/main/res/layout/activity_europa.xml" value="0.22282608695652173" />
+        <entry key="..\:/Curso DAM/Repositorios GitHub/Proyectos-Android-Studio/Midlet-Atlas/app/src/main/res/layout/activity_main.xml" value="0.22282608695652173" />
+        <entry key="..\:/Curso DAM/Repositorios GitHub/Proyectos-Android-Studio/Midlet-Atlas/app/src/main/res/layout/activity_paises_europa.xml" value="0.30932971014492755" />
+        <entry key="..\:/Curso DAM/Repositorios GitHub/Proyectos-Android-Studio/Midlet-Atlas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.203125" />
         <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25833333333333336" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_africa.xml" value="0.2421875" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_america.xml" value="0.228125" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_asia.xml" value="0.228125" />
         <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_europa.xml" value="0.264" />
         <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_oceania.xml" value="0.2391304347826087" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_paises_africa.xml" value="0.4" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_paises_america.xml" value="0.2391304347826087" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_paises_asia.xml" value="0.228125" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_paises_europa.xml" value="0.4" />
-        <entry key="..\:/Users/DANILOR/AndroidStudioProjects/TareasDAM/Tarea2/MidletAtlas/app/src/main/res/layout/activity_paises_oceania.xml" value="0.228125" />
       </map>
     </option>
   </component>
